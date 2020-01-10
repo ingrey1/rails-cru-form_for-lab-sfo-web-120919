@@ -1,0 +1,9 @@
+<h1>Artist Form</h1>
+
+<%= form_for(@artist) do |t| %>
+
+<%= text_field_tag :"artist[name]" %>
+<%= text_area_tag :"artist[bio]" %>
+<%= submit_tag "Create Artist" %>
+
+<% end %>
